@@ -1,0 +1,222 @@
+{
+  "forge-1.7.10-10.13.4.1614-1.7.10.jar (modloader)": {
+    "jarName": "forge-1.7.10-10.13.4.1614-1.7.10.jar (modloader)",
+    "modId": "forge",
+    "version": "forge-1.7.10-10.13.4.1614-1.7.10.jar"
+  },
+  "!!!CrashAssistant-forge-1.7.10-1.10.20.jar": {
+    "jarName": "!!!CrashAssistant-forge-1.7.10-1.10.20.jar",
+    "modId": "crash_assistant",
+    "version": "1.10.20"
+  },
+  "+unimixins-all-1.7.10-0.1.23.jar": {
+    "jarName": "+unimixins-all-1.7.10-0.1.23.jar",
+    "modId": "unimixins",
+    "version": "0.1.23"
+  },
+  "AIImprovements-1.7.10-0.0.1b8.jar": {
+    "jarName": "AIImprovements-1.7.10-0.0.1b8.jar",
+    "modId": "AI-Improvements",
+    "version": "1.7.10-0.0.1b8"
+  },
+  "angelica-1.0.0-beta68.jar": {
+    "jarName": "angelica-1.0.0-beta68.jar",
+    "modId": "angelica",
+    "version": "1.0.0-beta68"
+  },
+  "AntiIdConflict-1.3.5-1.7.10.jar": {
+    "jarName": "AntiIdConflict-1.3.5-1.7.10.jar",
+    "modId": "antiidconflict",
+    "version": "1.3.5"
+  },
+  "AppleCore-mc1.7.10-3.1.1.jar": {
+    "jarName": "AppleCore-mc1.7.10-3.1.1.jar"
+  },
+  "archaicfix-0.7.7.jar": {
+    "jarName": "archaicfix-0.7.7.jar",
+    "modId": "archaicfix",
+    "version": "0.7.7"
+  },
+  "BetterBuildersWands-0.8.1-1.7.10r92+aec06c3.jar": {
+    "jarName": "BetterBuildersWands-0.8.1-1.7.10r92+aec06c3.jar",
+    "modId": "betterbuilderswands",
+    "version": "0.8.1"
+  },
+  "BetterQuesting-3.0.328.jar": {
+    "jarName": "BetterQuesting-3.0.328.jar",
+    "modId": "betterquesting",
+    "version": "3.0.328"
+  },
+  "BiomesOPlenty-1.7.10-2.1.0.1889-universal.jar": {
+    "jarName": "BiomesOPlenty-1.7.10-2.1.0.1889-universal.jar",
+    "modId": "BiomesOPlenty",
+    "version": "2.1.0"
+  },
+  "BloodMagic-1.7.10-1.3.3-17.jar": {
+    "jarName": "BloodMagic-1.7.10-1.3.3-17.jar",
+    "modId": "AWWayofTime",
+    "version": "1.7.10-1.3.3-17"
+  },
+  "ChickenChunks-1.7.10-1.3.4.19-universal.jar": {
+    "jarName": "ChickenChunks-1.7.10-1.3.4.19-universal.jar",
+    "modId": "ChickenChunks",
+    "version": "1.3.4.19"
+  },
+  "chunkapi-mc1.7.10-0.7.0.jar": {
+    "jarName": "chunkapi-mc1.7.10-0.7.0.jar",
+    "modId": "chunkapi",
+    "version": "0.7.0"
+  },
+  "CodeChickenCore-1.4.8.jar": {
+    "jarName": "CodeChickenCore-1.4.8.jar",
+    "modId": "CodeChickenCore",
+    "version": "1.4.8"
+  },
+  "CraftTweaker-1.7.10-3.1.0-legacy.jar": {
+    "jarName": "CraftTweaker-1.7.10-3.1.0-legacy.jar",
+    "modId": "MineTweaker3",
+    "version": "1.7.10-3.1.0"
+  },
+  "DynamicTrees-1.7.10-0.7.2c.jar": {
+    "jarName": "DynamicTrees-1.7.10-0.7.2c.jar",
+    "modId": "dynamictrees",
+    "version": "1.7.10-0.7.2c"
+  },
+  "EnderCore-1.7.10-0.2.0.40_beta.jar": {
+    "jarName": "EnderCore-1.7.10-0.2.0.40_beta.jar",
+    "modId": "endercore",
+    "version": "1.7.10-0.2.0.40_beta"
+  },
+  "endlessids-mc1.7.10-1.6.14.jar": {
+    "jarName": "endlessids-mc1.7.10-1.6.14.jar",
+    "modId": "endlessids",
+    "version": "1.6.14"
+  },
+  "entityculling-1.6.4-mc1.7.10.jar": {
+    "jarName": "entityculling-1.6.4-mc1.7.10.jar",
+    "modId": "entityculling",
+    "version": "1.6.4"
+  },
+  "Excore-1.5.3-1.7.10.jar": {
+    "jarName": "Excore-1.5.3-1.7.10.jar",
+    "modId": "excore",
+    "version": "1.0"
+  },
+  "falsepatternlib-mc1.7.10-1.10.2.jar": {
+    "jarName": "falsepatternlib-mc1.7.10-1.10.2.jar",
+    "modId": "falsepatternlib",
+    "version": "1.10.2"
+  },
+  "fastcraft-1.25.jar": {
+    "jarName": "fastcraft-1.25.jar",
+    "modId": "FastCraft",
+    "version": "1.25"
+  },
+  "fbtoggle-1.7.10-1.0.jar": {
+    "jarName": "fbtoggle-1.7.10-1.0.jar",
+    "modId": "fbtoggle",
+    "version": "1.1"
+  },
+  "FoamFix-1.7.10-universal-1.0.4.jar": {
+    "jarName": "FoamFix-1.7.10-universal-1.0.4.jar",
+    "modId": "foamfix",
+    "version": "1.0.4"
+  },
+  "GraveStone Mod 0.7.10.3.jar": {
+    "jarName": "GraveStone Mod 0.7.10.3.jar",
+    "modId": "gravestone",
+    "version": "0.7.10.3"
+  },
+  "gtnhlib-0.8.6.jar": {
+    "jarName": "gtnhlib-0.8.6.jar",
+    "modId": "gtnhlib",
+    "version": "0.8.6"
+  },
+  "HBM-NTM-.1.0.27_X5491_H261.jar": {
+    "jarName": "HBM-NTM-.1.0.27_X5491_H261.jar",
+    "modId": "hbm",
+    "version": "1.0.27_X5491_H261"
+  },
+  "iChunUtil-4.2.3.jar": {
+    "jarName": "iChunUtil-4.2.3.jar",
+    "modId": "iChunUtil",
+    "version": "4.2.3"
+  },
+  "InfernalMobs-1.7.10.jar": {
+    "jarName": "InfernalMobs-1.7.10.jar",
+    "modId": "InfernalMobs"
+  },
+  "Mantle-1.7.10-0.3.2b.jar": {
+    "jarName": "Mantle-1.7.10-0.3.2b.jar",
+    "modId": "Mantle",
+    "version": "0.3.2b"
+  },
+  "natura-1.7.10-2.2.0.1.jar": {
+    "jarName": "natura-1.7.10-2.2.0.1.jar",
+    "modId": "Natura",
+    "version": "1.7.10-92.8a1150f"
+  },
+  "neodymium-mc1.7.10-0.4.3-unofficial.jar": {
+    "jarName": "neodymium-mc1.7.10-0.4.3-unofficial.jar",
+    "modId": "neodymium",
+    "version": "0.4.3-unofficial"
+  },
+  "NotEnoughItems-1.7.10-1.0.5.120-universal.jar": {
+    "jarName": "NotEnoughItems-1.7.10-1.0.5.120-universal.jar"
+  },
+  "Pam\u0027s Harvest the Nether 1.7.10a.jar": {
+    "jarName": "Pam\u0027s Harvest the Nether 1.7.10a.jar",
+    "modId": "harvestthenether",
+    "version": "1.7.10a"
+  },
+  "Pam\u0027s HarvestCraft 1.7.10Lb.jar": {
+    "jarName": "Pam\u0027s HarvestCraft 1.7.10Lb.jar",
+    "modId": "harvestcraft",
+    "version": "1.7.10i"
+  },
+  "SpiceOfLife-mc1.7.10-1.3.11.jar": {
+    "jarName": "SpiceOfLife-mc1.7.10-1.3.11.jar",
+    "modId": "SpiceOfLife",
+    "version": "1.3.11"
+  },
+  "StandardExpansion-3.0.181.jar": {
+    "jarName": "StandardExpansion-3.0.181.jar",
+    "modId": "bq_standard",
+    "version": "3.0.181"
+  },
+  "TwilightForest-2.4.3.jar": {
+    "jarName": "TwilightForest-2.4.3.jar",
+    "modId": "TwilightForest",
+    "version": "2.4.3"
+  },
+  "Waila-1.5.10_1.7.10.jar": {
+    "jarName": "Waila-1.5.10_1.7.10.jar",
+    "modId": "waila",
+    "version": "1.5.10_1.7.10"
+  },
+  "WAILA-features-1.7.10-0.1.0.jar": {
+    "jarName": "WAILA-features-1.7.10-0.1.0.jar",
+    "modId": "wailafeatures",
+    "version": ""
+  },
+  "WailaHarvestability-mc1.7.10-1.1.6.jar": {
+    "jarName": "WailaHarvestability-mc1.7.10-1.1.6.jar",
+    "modId": "WailaHarvestability",
+    "version": "1.1.6"
+  },
+  "WAILAPlugins-MC1.7.10-0.2.0-25.jar": {
+    "jarName": "WAILAPlugins-MC1.7.10-0.2.0-25.jar",
+    "modId": "wailaplugins",
+    "version": "MC1.7.10-0.2.0-25"
+  },
+  "Wawla-1.0.5.120.jar": {
+    "jarName": "Wawla-1.0.5.120.jar",
+    "modId": "wawla",
+    "version": "1.3.1"
+  },
+  "witchery-1.7.10-0.24.1.jar": {
+    "jarName": "witchery-1.7.10-0.24.1.jar",
+    "modId": "witchery",
+    "version": "1.7.10-0.24.1"
+  }
+}

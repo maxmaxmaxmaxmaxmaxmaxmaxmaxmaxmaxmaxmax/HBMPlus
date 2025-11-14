@@ -1,0 +1,8 @@
+Total amount of free biome ids: C:\Users\player1\curseforge\minecraft\Instances\HBM+ (1)\config\AntiIDConflict\biomes\availableIDs.txt
+List of free biome ids:
+152-154
+159
+168-1079
+1083-1111
+1117-1139
+1142-65535
