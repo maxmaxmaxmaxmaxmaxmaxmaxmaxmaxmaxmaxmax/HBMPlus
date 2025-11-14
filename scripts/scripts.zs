@@ -4,6 +4,8 @@ val dirt = <minecraft:dirt>;
 val stick = <ore:stickWood>;
 val stone = <ore:stone>;
 val flint = <ore:itemFlint>;
+val glass = <ore:blockGlass>;
+val obsidian = <ore:blockObsidian>;
 
 val tita_plate = <ore:plateTitanium>;
 val tita_cast_plate = <hbm:item.plate_cast:2200>;
@@ -11,8 +13,10 @@ val tita_cast_plate = <hbm:item.plate_cast:2200>;
 val rubber = <ore:ingotRubber>;
 val microchip = <hbm:item.circuit:6>;
 val kobold_ingot = <witchery:ingredient:150>;
+val glassware = <ore:ntmchemistryset>;
 val dense_stone = <hbm:tile.reinforced_stone>;
 val dense_stone_stairs = <hbm:tile.reinforced_stone_stairs>;
+val weak_orb = <AWWayofTime:weakBloodOrb>;
 
 recipes.addShaped(<hbm:tile.dirt_dead> * 8,
  [[dirt, dirt, dirt],
@@ -57,4 +61,10 @@ recipes.remove(<AWWayofTime:sacrificialKnife>);
 recipes.addShaped(<AWWayofTime:sacrificialKnife>,
  [[null, flint, null],
   [stick, null, null],
+  [null, null, null]]);
+
+recipes.remove(<AWWayofTime:blockWritingTable>);
+recipes.addShaped(<AWWayofTime:blockWritingTable>,
+ [[null, glassware, null],
+  [obsidian, weak_orb, obsidian],
   [null, null, null]]);
