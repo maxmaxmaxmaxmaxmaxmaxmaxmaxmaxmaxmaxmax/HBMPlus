@@ -68,3 +68,4 @@ recipes.addShaped(<AWWayofTime:blockWritingTable>,
  [[null, glassware, null],
   [obsidian, weak_orb, obsidian],
   [null, null, null]]);
+recipes.remove(dirt);
