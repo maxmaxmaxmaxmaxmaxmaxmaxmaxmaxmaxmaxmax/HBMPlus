@@ -254,10 +254,6 @@
       "output": ["hbm:item.ore_enriched",1,3]
     },
     {
-      "input": ["dynamictrees:acaciaseed"],
-      "output": ["minecraft:stick"]
-    },
-    {
       "input": ["hbm:item.ore_cleaned",1,4],
       "output": ["hbm:item.ore_enriched",1,4]
     },
@@ -412,10 +408,6 @@
     {
       "input": ["hbm:tile.pvc_planks"],
       "output": ["hbm:item.powder_pvc"]
-    },
-    {
-      "input": ["dynamictrees:birchseed"],
-      "output": ["minecraft:stick"]
     },
     {
       "input": ["hbm:item.ore_bedrock",1,17],
@@ -1274,10 +1266,6 @@
       "output": ["hbm:item.ore_enriched",1,13]
     },
     {
-      "input": ["dynamictrees:oakseed"],
-      "output": ["minecraft:stick"]
-    },
-    {
       "input": ["hbm:item.ore_seared",1,2],
       "output": ["hbm:item.ore_enriched",1,2]
     },
@@ -1506,10 +1494,6 @@
       "output": ["hbm:item.ore_enriched",1,6]
     },
     {
-      "input": ["dynamictrees:spruceseed"],
-      "output": ["minecraft:stick"]
-    },
-    {
       "input": ["hbm:tile.bobblehead",1,16],
       "output": ["hbm:item.scrap_plastic",1,16]
     },
@@ -1520,10 +1504,6 @@
     {
       "input": ["hbm:item.ore_nitrated",1,4],
       "output": ["hbm:item.ore_enriched",1,4]
-    },
-    {
-      "input": ["dynamictrees:jungleseed"],
-      "output": ["minecraft:stick"]
     },
     {
       "input": ["minecraft:wool",1,12],
@@ -1556,10 +1536,6 @@
     {
       "input": ["hbm:item.crystal_diamond"],
       "output": ["hbm:item.powder_diamond",3]
-    },
-    {
-      "input": ["dynamictrees:darkoakseed"],
-      "output": ["minecraft:stick"]
     },
     {
       "input": ["hbm:item.crystal_uranium"],

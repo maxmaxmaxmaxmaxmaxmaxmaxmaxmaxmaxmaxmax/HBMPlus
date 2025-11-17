@@ -1,4 +1,4 @@
-Total amount of free potion ids: C:\Users\player1\curseforge\minecraft\Instances\HBM+ (1)\config\AntiIDConflict\potions\availableIDs.txt
+Total amount of free potion ids: C:\Users\Ryan Post\curseforge\minecraft\Instances\HBM1.7.10Extras\config\AntiIDConflict\potions\availableIDs.txt
 List of free potion ids:
 0
 26
