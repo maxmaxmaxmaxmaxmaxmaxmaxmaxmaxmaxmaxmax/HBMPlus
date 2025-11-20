@@ -1,27 +1,41 @@
-[12:05:51] [main/INFO]: Setting user: Player801
-[12:05:53] [Client thread/INFO]: LWJGL Version: 2.9.1
-[12:06:03] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:MineTweaker Blood Magic Addon
-[12:06:04] [Sound Library Loader/INFO]: Sound engine started
-[12:06:05] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[12:06:05] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[12:06:05] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:MineTweaker Blood Magic Addon
-[12:06:05] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[12:06:06] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[12:06:06] [Sound Library Loader/INFO]: Sound engine started
-[12:06:10] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[12:06:10] [Server thread/INFO]: Generating keypair
-[12:06:10] [Server thread/INFO]: Preparing start region for level 0
-[12:06:11] [Server thread/INFO]: Changing view distance to 12, from 10
-[12:06:12] [Server thread/INFO]: Player801[local:E:59d48cca] logged in with entity id 200 at (234.200630672816, 73.2732673036257, -116.72082389785488)
-[12:06:12] [Server thread/INFO]: Player801 joined the game
-[12:06:18] [Server thread/INFO]: Player801 has just earned the achievement [Taking Inventory]
-[12:06:18] [Client thread/INFO]: [CHAT] Player801 has just earned the achievement [Taking Inventory]
-[12:08:25] [Client thread/INFO]: Stopping!
-[12:08:26] [Server thread/INFO]: Stopping server
-[12:08:26] [Server thread/INFO]: Saving players
-[12:08:26] [Server thread/INFO]: Saving worlds
-[12:08:26] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[12:08:26] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[12:08:26] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[12:08:26] [Client Shutdown Thread/INFO]: Stopping server
-[12:08:26] [Client Shutdown Thread/INFO]: Saving players
+[17:11:41] [main/INFO]: Setting user: Player190
+[17:11:42] [Client thread/INFO]: LWJGL Version: 2.9.1
+[17:11:53] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Blood Magic: Alchemical Wizardry, FMLFileResourcePack:MineTweaker Blood Magic Addon
+[17:11:53] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Users\player1\curseforge\minecraft\Instances\minetweakerfork\libs\BloodMagic-1.7.10-1.3.1-7-deobf.jar
+[17:11:53] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Users\player1\curseforge\minecraft\Instances\minetweakerfork\libs\BloodMagic-1.7.10-1.3.1-7-deobf.jar
+[17:11:53] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Users\player1\curseforge\minecraft\Instances\minetweakerfork\libs\BloodMagic-1.7.10-1.3.1-7-deobf.jar
+[17:11:53] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Users\player1\curseforge\minecraft\Instances\minetweakerfork\libs\BloodMagic-1.7.10-1.3.1-7-deobf.jar
+[17:11:53] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Users\player1\curseforge\minecraft\Instances\minetweakerfork\libs\BloodMagic-1.7.10-1.3.1-7-deobf.jar
+[17:11:53] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Users\player1\curseforge\minecraft\Instances\minetweakerfork\libs\BloodMagic-1.7.10-1.3.1-7-deobf.jar
+[17:11:54] [Sound Library Loader/INFO]: Sound engine started
+[17:11:55] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[17:11:55] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[17:11:56] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Blood Magic: Alchemical Wizardry, FMLFileResourcePack:MineTweaker Blood Magic Addon
+[17:11:56] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Users\player1\curseforge\minecraft\Instances\minetweakerfork\libs\BloodMagic-1.7.10-1.3.1-7-deobf.jar
+[17:11:56] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Users\player1\curseforge\minecraft\Instances\minetweakerfork\libs\BloodMagic-1.7.10-1.3.1-7-deobf.jar
+[17:11:56] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Users\player1\curseforge\minecraft\Instances\minetweakerfork\libs\BloodMagic-1.7.10-1.3.1-7-deobf.jar
+[17:11:56] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Users\player1\curseforge\minecraft\Instances\minetweakerfork\libs\BloodMagic-1.7.10-1.3.1-7-deobf.jar
+[17:11:56] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Users\player1\curseforge\minecraft\Instances\minetweakerfork\libs\BloodMagic-1.7.10-1.3.1-7-deobf.jar
+[17:11:56] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Users\player1\curseforge\minecraft\Instances\minetweakerfork\libs\BloodMagic-1.7.10-1.3.1-7-deobf.jar
+[17:11:57] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[17:11:57] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[17:11:57] [Sound Library Loader/INFO]: Sound engine started
+[17:12:01] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[17:12:01] [Server thread/INFO]: Generating keypair
+[17:12:01] [Server thread/INFO]: Preparing start region for level 0
+[17:12:02] [Server thread/INFO]: Changing view distance to 12, from 10
+[17:12:03] [Server thread/INFO]: Player190[local:E:203973bb] logged in with entity id 194 at (233.0678877723813, 74.38592212602569, -116.74917654852196)
+[17:12:03] [Server thread/INFO]: Player190 joined the gang
+[17:12:05] [Server thread/INFO]: Player190 has just earned the achievement [Opening Your Bag]
+[17:12:05] [Client thread/INFO]: [CHAT] Player190 has just earned the achievement [Opening Your Bag]
+[17:12:07] [Server thread/INFO]: Saving and pausing game...
+[17:12:07] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:12:07] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:12:07] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:12:08] [Server thread/INFO]: Stopping server
+[17:12:08] [Server thread/INFO]: Saving players
+[17:12:08] [Server thread/INFO]: Saving worlds
+[17:12:08] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:12:08] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:12:08] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:12:09] [Client thread/INFO]: Stopping!

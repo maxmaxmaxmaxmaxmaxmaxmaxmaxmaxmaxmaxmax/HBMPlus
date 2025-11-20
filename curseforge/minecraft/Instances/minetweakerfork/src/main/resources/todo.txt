@@ -1,0 +1,5 @@
+Figure out .jar deobfuscating
+Detect HBM: Space Mods
+Add custom HBM: Space machine recipes
+Detect Minetweaker mod
+Integrate HBM and Blood Magic into Minetweaker syntax. let recipes be added as a script.

@@ -1,10 +1,12 @@
 package com.earthmelon.mtbloodmagic;
 
 import com.earthmelon.mtbloodmagic.common.blocks.EvilDirt;
+import com.earthmelon.mtbloodmagic.common.blocks.ModBlockRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockDirt;
 import net.minecraft.block.material.Material;
+import net.minecraft.client.resources.data.IMetadataSerializer;
 import net.minecraft.init.Blocks;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -24,8 +26,7 @@ public class MTBloodMagic {
 
     @EventHandler
     public void createRecipes(FMLPreInitializationEvent event) {
-        Block evilDirt = registerBlock(new EvilDirt(Blocks.dirt.getMaterial()), "evil_dirt");
-        evilDirt.setBlockName("evil_dirt");
+        ModBlockRegistry.registerDefaults();
         List<Block> recipeItems = new ArrayList<Block>();
         recipeItems.add(Blocks.dirt);
         ItemStack itemStack = new ItemStack(new EvilDirt(Blocks.dirt.getMaterial()));
@@ -38,6 +39,7 @@ public class MTBloodMagic {
     public void init(FMLInitializationEvent event)
     {
 		// some example code
+
         System.out.println("DIRT BLOCK >> "+Blocks.dirt.getUnlocalizedName());
     }
 }
