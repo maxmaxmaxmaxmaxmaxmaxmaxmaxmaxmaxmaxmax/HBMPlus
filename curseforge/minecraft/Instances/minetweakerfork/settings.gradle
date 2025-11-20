@@ -1,0 +1,15 @@
+pluginManagement {
+    repositories {
+        // Add the MinecraftForge maven
+        maven { url = uri("https://maven.minecraftforge.net/") }
+
+        // Allows Develocity to run.
+        maven { url = uri("https://plugins.gradle.org/m2/")}
+        gradlePluginPortal()
+        flatDir {
+            dirs 'file:$rootDir/libs'
+        }
+    }
+}
+
+rootProject.name = "minetweakerfork"

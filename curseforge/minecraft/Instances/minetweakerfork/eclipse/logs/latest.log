@@ -1,0 +1,27 @@
+[12:05:51] [main/INFO]: Setting user: Player801
+[12:05:53] [Client thread/INFO]: LWJGL Version: 2.9.1
+[12:06:03] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:MineTweaker Blood Magic Addon
+[12:06:04] [Sound Library Loader/INFO]: Sound engine started
+[12:06:05] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[12:06:05] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[12:06:05] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:MineTweaker Blood Magic Addon
+[12:06:05] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[12:06:06] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[12:06:06] [Sound Library Loader/INFO]: Sound engine started
+[12:06:10] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[12:06:10] [Server thread/INFO]: Generating keypair
+[12:06:10] [Server thread/INFO]: Preparing start region for level 0
+[12:06:11] [Server thread/INFO]: Changing view distance to 12, from 10
+[12:06:12] [Server thread/INFO]: Player801[local:E:59d48cca] logged in with entity id 200 at (234.200630672816, 73.2732673036257, -116.72082389785488)
+[12:06:12] [Server thread/INFO]: Player801 joined the game
+[12:06:18] [Server thread/INFO]: Player801 has just earned the achievement [Taking Inventory]
+[12:06:18] [Client thread/INFO]: [CHAT] Player801 has just earned the achievement [Taking Inventory]
+[12:08:25] [Client thread/INFO]: Stopping!
+[12:08:26] [Server thread/INFO]: Stopping server
+[12:08:26] [Server thread/INFO]: Saving players
+[12:08:26] [Server thread/INFO]: Saving worlds
+[12:08:26] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:08:26] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:08:26] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:08:26] [Client Shutdown Thread/INFO]: Stopping server
+[12:08:26] [Client Shutdown Thread/INFO]: Saving players
