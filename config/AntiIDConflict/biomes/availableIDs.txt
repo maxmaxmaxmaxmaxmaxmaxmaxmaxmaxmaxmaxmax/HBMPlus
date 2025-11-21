@@ -1,4 +1,4 @@
-Total amount of free biome ids: C:\Users\Ryan Post\curseforge\minecraft\Instances\HBM1.7.10Extras\config\AntiIDConflict\biomes\availableIDs.txt
+Total amount of free biome ids: C:\Users\chooc\curseforge\minecraft\Instances\HBM+\config\AntiIDConflict\biomes\availableIDs.txt
 List of free biome ids:
 152-154
 159

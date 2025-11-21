@@ -4487,6 +4487,10 @@
       "solid": ["hbm:item.ingot_lead"]
     },
     {
+      "input": ["item","TwilightForest:item.shardCluster",1,32767],
+      "solid": ["TwilightForest:item.knightMetal"]
+    },
+    {
       "input": ["item","hbm:item.powder_plutonium",1,32767],
       "solid": ["hbm:item.ingot_plutonium"]
     },
@@ -4713,10 +4717,6 @@
     {
       "input": ["item","hbm:item.powder_tcalloy",1,32767],
       "solid": ["hbm:item.ingot_tcalloy"]
-    },
-    {
-      "input": ["item","TwilightForest:item.shardCluster",1,32767],
-      "solid": ["TwilightForest:item.knightMetal"]
     },
     {
       "input": ["item","hbm:tile.ore_nickel",1,32767],
