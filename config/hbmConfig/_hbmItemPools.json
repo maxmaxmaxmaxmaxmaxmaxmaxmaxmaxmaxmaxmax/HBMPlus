@@ -70,7 +70,6 @@
       [["hbm:item.bolt",1,7400],4,16,3],
       [["hbm:item.coil_tungsten"],1,2,5],
       [["hbm:item.motor"],1,2,4],
-      [["hbm:item.tank_steel"],1,2,3],
       [["hbm:item.coil_copper"],1,3,4],
       [["hbm:item.coil_copper_torus"],1,2,3],
       [["hbm:item.wire_fine",1,31],1,8,5],
@@ -99,6 +98,11 @@
     ],
     "POOL_BLACK_SLAB": [
       [["hbm:item.clay_tablet"],1,1,10]
+    ],
+    "POOL_BLUEPRINTS": [
+      [["hbm:item.blueprint_folder"],1,1,10],
+      [["hbm:item.blueprint_folder",1,1],1,1,5],
+      [["hbm:item.blueprint_folder"],1,1,1]
     ],
     "POOL_PILE_BONES": [
       [["minecraft:bone"],1,1,10],
@@ -214,8 +218,7 @@
     "POOL_OIL_RIG": [
       [["hbm:item.oil_detector"],1,1,1],
       [["hbm:item.canister_full",1,10],1,4,5],
-      [["hbm:tile.machine_fraction_tower"],0,1,1],
-      [["hbm:tile.fraction_spacer"],0,1,1],
+      [["hbm:item.canister_empty"],4,16,10],
       [["hbm:item.circuit",1,8],1,4,1],
       [["hbm:item.circuit",1,1],1,1,3]
     ],
@@ -330,7 +333,8 @@
       [["hbm:item.ammo_standard",1,21],6,6,10],
       [["hbm:item.ammo_standard",1,28],6,6,5],
       [["hbm:item.ammo_standard",1,41],6,6,10],
-      [["hbm:item.ammo_standard",1,58],1,1,3]
+      [["hbm:item.ammo_standard",1,58],1,1,3],
+      [["hbm:item.ammo_container"],1,1,1]
     ],
     "POOL_REPAIR_MATERIALS": [
       [["hbm:item.ingot_aluminium"],2,8,3],
@@ -425,20 +429,6 @@
       [["hbm:item.gas_mask_filter"],1,1,3],
       [["hbm:item.blueprint_folder"],1,1,1]
     ],
-    "POOL_POWDER": [
-      [["hbm:item.powder_neptunium"],1,32,1],
-      [["hbm:item.powder_iodine"],1,32,1],
-      [["hbm:item.powder_thorium"],1,32,1],
-      [["hbm:item.powder_astatine"],1,32,1],
-      [["hbm:item.powder_neodymium"],1,32,1],
-      [["hbm:item.powder_caesium"],1,32,1],
-      [["hbm:item.powder_strontium"],1,32,1],
-      [["hbm:item.powder_cobalt"],1,32,1],
-      [["hbm:item.powder_bromine"],1,32,1],
-      [["hbm:item.powder_niobium"],1,32,1],
-      [["hbm:item.powder_tennessine"],1,32,1],
-      [["hbm:item.powder_cerium"],1,32,1]
-    ],
     "POOL_RED_PEDESTAL": [
       [["hbm:item.ballistic_gauntlet"],1,1,10],
       [["hbm:item.armor_polish"],1,1,10],
@@ -521,7 +511,8 @@
       [["minecraft:book"],1,5,10],
       [["minecraft:experience_bottle"],1,3,1],
       [["hbm:item.blueprint_folder"],1,1,1],
-      [["hbm:item.blueprint_folder",1,1],1,1,1]
+      [["hbm:item.blueprint_folder",1,1],1,1,1],
+      [["hbm:item.ammo_container"],1,1,1]
     ],
     "POOL_METEOR_SAFE": [
       [["hbm:item.book_of_"],1,1,1],
@@ -594,7 +585,7 @@
     ],
     "POOL_MACHINE_PARTSTHAT": [
       [["hbm:item.nugget_beryllium"],3,12,5],
-      [["hbm:item.circuit",1,13],3,12,5],
+      [["hbm:item.circuit",1,14],3,12,5],
       [["hbm:item.circuit",1,3],3,6,5],
       [["hbm:item.plate_steel"],1,1,1],
       [["hbm:item.powder_steel"],1,1,2]

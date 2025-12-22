@@ -1,6 +1,43 @@
 {
   "recipes": [
     {
+      "name": "purex.pilepu",
+      "inputItem": [
+        ["item","hbm:item.pile_rod_plutonium"]
+      ],
+      "inputFluid": [
+        ["SULFURIC_ACID",100]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.billet_pu_mix",2]],
+        ["single",["hbm:item.billet_uranium"]],
+        ["single",["hbm:item.plate_iron",2]]
+      ],
+      "duration": 40,
+      "power": 100,
+      "nameWrapper": "purex.recycle",
+      "autoSwitchGroup": "autoswitch.pile"
+    },
+    {
+      "name": "purex.pilepu239",
+      "inputItem": [
+        ["item","hbm:item.pile_rod_pu239"]
+      ],
+      "inputFluid": [
+        ["SULFURIC_ACID",100]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.billet_pu239"]],
+        ["single",["hbm:item.billet_pu_mix"]],
+        ["single",["hbm:item.billet_uranium"]],
+        ["single",["hbm:item.plate_iron",2]]
+      ],
+      "duration": 40,
+      "power": 100,
+      "nameWrapper": "purex.recycle",
+      "autoSwitchGroup": "autoswitch.pile"
+    },
+    {
       "name": "purex.zirnoxnu",
       "inputItem": [
         ["item","hbm:item.waste_natural_uranium"]
@@ -866,8 +903,10 @@
       "outputItem": [
         ["single",["hbm:item.icf_pellet_empty"]],
         ["single",["hbm:item.pellet_charged"]],
-        ["single",["hbm:item.pellet_charged"]],
         ["single",["hbm:item.powder_iron"]]
+      ],
+      "outputFluid": [
+        ["HELIUM4",1250]
       ],
       "duration": 300,
       "power": 10000,

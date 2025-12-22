@@ -1,0 +1,187 @@
+{
+  "recipes": [
+    {
+      "key": {
+        "type": "dict",
+        "dict": "billetSilicon"
+      },
+      "milestones": [
+        {
+          "amount": 256,
+          "payout": ["hbm:item.blueprints"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "item",
+        "item": "hbm:item.pellet_charged"
+      },
+      "milestones": [
+        {
+          "amount": 1024,
+          "payout": ["hbm:item.blueprints"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "comp",
+        "item": "hbm:item.circuit",
+        "meta": 16
+      },
+      "milestones": [
+        {
+          "amount": 128,
+          "payout": ["hbm:item.blueprints"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "dict",
+        "dict": "dustStrontium"
+      },
+      "milestones": [
+        {
+          "amount": 256,
+          "payout": ["hbm:item.blueprints"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "dict",
+        "dict": "billetUranium"
+      },
+      "milestones": [
+        {
+          "amount": 256,
+          "payout": ["hbm:item.blueprints"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "dict",
+        "dict": "ingotSteel"
+      },
+      "milestones": [
+        {
+          "amount": 256,
+          "payout": ["hbm:item.blueprints"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "dict",
+        "dict": "ingotAnyPlastic"
+      },
+      "milestones": [
+        {
+          "amount": 512,
+          "payout": ["hbm:item.blueprints"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "dict",
+        "dict": "ingotAnyResistantAlloy"
+      },
+      "milestones": [
+        {
+          "amount": 1024,
+          "payout": ["hbm:item.blueprints"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "comp",
+        "item": "hbm:item.ammo_standard",
+        "meta": 34
+      },
+      "milestones": [
+        {
+          "amount": 256,
+          "payout": ["hbm:item.blueprints"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "dict",
+        "dict": "ingotRubber"
+      },
+      "milestones": [
+        {
+          "amount": 512,
+          "payout": ["hbm:item.blueprints"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "dict",
+        "dict": "nuggetBismuth"
+      },
+      "milestones": [
+        {
+          "amount": 128,
+          "payout": ["hbm:item.blueprints"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "dict",
+        "dict": "ingotAnyHardPlastic"
+      },
+      "milestones": [
+        {
+          "amount": 1024,
+          "payout": ["hbm:item.blueprints"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "dict",
+        "dict": "ingotFerrouranium"
+      },
+      "milestones": [
+        {
+          "amount": 1024,
+          "payout": ["hbm:item.blueprints"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "comp",
+        "item": "hbm:item.ammo_arty",
+        "meta": 0
+      },
+      "milestones": [
+        {
+          "amount": 128,
+          "payout": ["hbm:item.blueprints"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "item",
+        "item": "hbm:item.powder_chlorophyte"
+      },
+      "milestones": [
+        {
+          "amount": 1024,
+          "payout": ["hbm:item.blueprints"]
+        }
+      ]
+    }
+  ]
+}

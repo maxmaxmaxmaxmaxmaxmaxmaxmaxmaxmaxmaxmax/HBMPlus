@@ -2,78 +2,6 @@
   "comment": "Rules: All in- and output arrays need to be present, even if empty. IDs need to be unique, but not sequential. It's safe if you add your own recipes starting with ID 1000. Template order depends on the order of the recipes in this JSON file. The 'name' field is responsible for the texture being loaded for the template. Custom dynamic texture generation is not yet implemented, you will have to throw the texture into the JAR manually.",
   "recipes": [
     {
-      "id": 31,
-      "name": "BP_BIOGAS",
-      "duration": 60,
-      "fluidInput": [],
-      "itemInput": [
-        ["item","hbm:item.biomass",16]
-      ],
-      "fluidOutput": [
-        ["BIOGAS",2000]
-      ],
-      "itemOutput": []
-    },
-    {
-      "id": 32,
-      "name": "BP_BIOFUEL",
-      "duration": 60,
-      "fluidInput": [
-        ["BIOGAS",1500],
-        ["ETHANOL",250]
-      ],
-      "itemInput": [],
-      "fluidOutput": [
-        ["BIOFUEL",1000]
-      ],
-      "itemOutput": []
-    },
-    {
-      "id": 33,
-      "name": "LPG",
-      "duration": 100,
-      "fluidInput": [
-        ["PETROLEUM",2000]
-      ],
-      "itemInput": [],
-      "fluidOutput": [
-        ["LPG",1000]
-      ],
-      "itemOutput": []
-    },
-    {
-      "id": 34,
-      "name": "OIL_SAND",
-      "duration": 200,
-      "fluidInput": [],
-      "itemInput": [
-        ["item","hbm:tile.ore_oil_sand",16],
-        ["dict","anyTar"]
-      ],
-      "fluidOutput": [
-        ["BITUMEN",1000]
-      ],
-      "itemOutput": [
-        ["minecraft:sand",16]
-      ]
-    },
-    {
-      "id": 35,
-      "name": "ASPHALT",
-      "duration": 100,
-      "fluidInput": [
-        ["BITUMEN",1000]
-      ],
-      "itemInput": [
-        ["item","minecraft:gravel",2],
-        ["dict","sand",6]
-      ],
-      "fluidOutput": [],
-      "itemOutput": [
-        ["hbm:tile.asphalt",16]
-      ]
-    },
-    {
       "id": 1004,
       "name": "URANIUM_BROMIDE",
       "duration": 50,
@@ -624,61 +552,6 @@
       ]
     },
     {
-      "id": 65,
-      "name": "COLTAN_CLEANING",
-      "duration": 60,
-      "fluidInput": [
-        ["PEROXIDE",250],
-        ["HYDROGEN",500]
-      ],
-      "itemInput": [
-        ["dict","dustColtan",2],
-        ["dict","dustAnyCoalCoke"]
-      ],
-      "fluidOutput": [
-        ["WATER",500]
-      ],
-      "itemOutput": [
-        ["hbm:item.powder_coltan"],
-        ["hbm:item.powder_niobium"],
-        ["hbm:item.dust"]
-      ]
-    },
-    {
-      "id": 66,
-      "name": "COLTAN_PAIN",
-      "duration": 120,
-      "fluidInput": [
-        ["GAS",1000],
-        ["OXYGEN",500]
-      ],
-      "itemInput": [
-        ["item","hbm:item.powder_coltan"],
-        ["dict","dustFluorite"]
-      ],
-      "fluidOutput": [
-        ["PAIN",1000]
-      ],
-      "itemOutput": []
-    },
-    {
-      "id": 67,
-      "name": "COLTAN_CRYSTAL",
-      "duration": 80,
-      "fluidInput": [
-        ["PAIN",1000],
-        ["PEROXIDE",500]
-      ],
-      "itemInput": [],
-      "fluidOutput": [
-        ["WATER",250]
-      ],
-      "itemOutput": [
-        ["hbm:item.gem_tantalium"],
-        ["hbm:item.dust",3]
-      ]
-    },
-    {
       "id": 88,
       "name": "LUBRICANT",
       "duration": 20,
@@ -1128,21 +1001,6 @@
       "itemOutput": [
         ["hbm:item.ammo_arty",1,11]
       ]
-    },
-    {
-      "id": 118,
-      "name": "CC_CENTRIFUGE",
-      "duration": 200,
-      "fluidInput": [
-        ["CHLOROCALCITE_CLEANED",500],
-        ["SULFURIC_ACID",8000]
-      ],
-      "itemInput": [],
-      "fluidOutput": [
-        ["POTASSIUM_CHLORIDE",250],
-        ["CALCIUM_CHLORIDE",250]
-      ],
-      "itemOutput": []
     },
     {
       "id": 119,

@@ -780,18 +780,6 @@
       "duration": 300
     },
     {
-      "output": ["hbm:tile.struct_iter_core"],
-      "input": [
-        ["dict","plateSextupleAnyResistantAlloy",6],
-        ["dict","plateSextupleTungsten",6],
-        ["dict","plateTungCar",12],
-        ["item","hbm:item.coil_advanced_alloy",12],
-        ["dict","ingotAnyPlastic",8],
-        ["item","hbm:item.circuit",4,12]
-      ],
-      "duration": 600
-    },
-    {
       "output": ["hbm:item.mp_warhead_10_nuclear"],
       "input": [
         ["item","hbm:item.seg_10"],
@@ -3246,17 +3234,6 @@
         ["item","hbm:item.circuit",8,10]
       ],
       "duration": 60
-    },
-    {
-      "output": ["hbm:item.multitool_hit"],
-      "input": [
-        ["dict","ingotAnyResistantAlloy",4],
-        ["dict","plateSteel",4],
-        ["dict","wireFineGold",12],
-        ["item","hbm:item.motor",4],
-        ["item","hbm:item.circuit",16,11]
-      ],
-      "duration": 100
     },
     {
       "output": ["hbm:item.boy_shielding"],

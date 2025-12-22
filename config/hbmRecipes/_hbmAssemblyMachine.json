@@ -401,6 +401,22 @@
       "power": 250000
     },
     {
+      "name": "ass.explastic",
+      "inputItem": [
+        ["dict","ingotAnyHardPlastic",4],
+        ["dict","ingotAnyPlastic",16],
+        ["dict","ingotAnyRubber",8]
+      ],
+      "inputFluid": [
+        ["SOLVENT",1000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.item_expensive",1,7]]
+      ],
+      "duration": 600,
+      "power": 20000
+    },
+    {
       "name": "ass.hazcloth",
       "inputItem": [
         ["dict","dustLead",4],
@@ -535,7 +551,7 @@
         ["dict","wireDenseGold",16]
       ],
       "inputFluid": [
-        ["XENON",8000]
+        ["KRYPTON",8000]
       ],
       "outputItem": [
         ["single",["hbm:item.entanglement_kit"]]
@@ -1035,6 +1051,20 @@
         ["single",["hbm:tile.machine_purex"]]
       ],
       "duration": 300,
+      "power": 100
+    },
+    {
+      "name": "ass.precass",
+      "inputItem": [
+        ["item","hbm:item.item_expensive",4],
+        ["dict","ingotZirconium",8],
+        ["item","hbm:item.motor",4],
+        ["item","hbm:item.circuit",8,11]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.machine_precass"]]
+      ],
+      "duration": 1200,
       "power": 100
     },
     {
@@ -1969,7 +1999,7 @@
       "name": "ass.tank",
       "inputItem": [
         ["item","hbm:item.item_expensive",4],
-        ["dict","anyTar",4]
+        ["dict","anyTar",16]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_fluidtank"]]
@@ -2369,21 +2399,6 @@
       "power": 500
     },
     {
-      "name": "ass.fusioncore",
-      "inputItem": [
-        ["item","hbm:item.item_expensive",8,4],
-        ["dict","plateSextupleAnyResistantAlloy",8],
-        ["dict","plateSextupleTungsten",16],
-        ["item","hbm:item.circuit",4,12],
-        ["item","hbm:item.item_expensive",4,5]
-      ],
-      "outputItem": [
-        ["single",["hbm:tile.struct_iter_core"]]
-      ],
-      "duration": 600,
-      "power": 100
-    },
-    {
       "name": "ass.fusionconductor",
       "inputItem": [
         ["item","hbm:item.coil_advanced_alloy",5]
@@ -2395,80 +2410,135 @@
       "power": 100
     },
     {
-      "name": "ass.fusioncenter",
+      "name": "ass.fusioncore",
       "inputItem": [
-        ["item","hbm:item.item_expensive",4],
-        ["dict","ingotAnyHardPlastic",4],
-        ["dict","wireFineAdvancedAlloy",24]
+        ["item","hbm:item.item_expensive",8,4],
+        ["item","hbm:item.item_expensive",8,7],
+        ["item","hbm:item.circuit",16,12]
       ],
       "outputItem": [
-        ["single",["hbm:tile.fusion_center"]]
+        ["single",["hbm:tile.struct_torus_core"]]
       ],
-      "duration": 200,
+      "duration": 600,
       "power": 100
     },
     {
-      "name": "ass.fusionmotor",
+      "name": "ass.fusionbscco",
       "inputItem": [
-        ["item","hbm:item.item_expensive",4],
-        ["item","hbm:item.motor",4]
+        ["dict","wireDenseBSCCO",4],
+        ["item","hbm:item.item_expensive",1,4],
+        ["item","hbm:item.item_expensive",1,7]
       ],
       "outputItem": [
-        ["single",["hbm:tile.fusion_motor"]]
+        ["single",["hbm:tile.fusion_component",2]]
       ],
-      "duration": 400,
+      "duration": 100,
       "power": 100
     },
     {
-      "name": "ass.fusionheater",
+      "name": "ass.fusionblanket",
       "inputItem": [
-        ["item","hbm:item.item_expensive",4,1],
         ["dict","plateSextupleTungsten",4],
-        ["item","hbm:item.magnetron",2]
+        ["item","hbm:item.item_expensive",1,1],
+        ["dict","ingotBeryllium",4]
       ],
       "outputItem": [
-        ["single",["hbm:tile.fusion_heater",4]]
+        ["single",["hbm:tile.fusion_component",4,2]]
       ],
-      "duration": 200,
+      "duration": 100,
       "power": 100
     },
     {
-      "name": "ass.blankettungsten",
+      "name": "ass.fusionpipes",
       "inputItem": [
-        ["dict","blockTungsten",32],
-        ["dict","plateTungCar",64]
+        ["item","hbm:item.item_expensive",1,7],
+        ["dict","ntmpipeCopper",4],
+        ["item","hbm:item.item_expensive",1,2]
       ],
       "outputItem": [
-        ["single",["hbm:item.fusion_shield_tungsten"]]
+        ["single",["hbm:tile.fusion_component",4,3]]
       ],
-      "duration": 600,
+      "duration": 100,
       "power": 100
     },
     {
-      "name": "ass.blanketdesh",
+      "name": "ass.fusionklystron",
       "inputItem": [
-        ["dict","blockDesh",16],
-        ["dict","blockCobalt",16],
-        ["dict","plateSaturnite",64]
+        ["dict","wireDenseBSCCO",32],
+        ["item","hbm:item.item_expensive",16,4],
+        ["item","hbm:item.item_expensive",8,7],
+        ["item","hbm:item.item_expensive",1,5]
       ],
       "outputItem": [
-        ["single",["hbm:item.fusion_shield_desh"]]
+        ["single",["hbm:tile.fusion_klystron"]]
       ],
-      "duration": 600,
+      "duration": 300,
       "power": 100
     },
     {
-      "name": "ass.blanketchlorophyte",
+      "name": "ass.fusioncollector",
       "inputItem": [
-        ["dict","blockTungsten",16],
-        ["dict","blockDuraSteel",16],
-        ["dict","plateTungCar",48],
-        ["item","hbm:item.powder_chlorophyte",48]
+        ["item","hbm:item.item_expensive",2,4],
+        ["dict","ingotGraphite",64],
+        ["item","hbm:item.item_expensive",4,7]
       ],
       "outputItem": [
-        ["single",["hbm:item.fusion_shield_chlorophyte"]]
+        ["single",["hbm:tile.fusion_collector"]]
       ],
-      "duration": 600,
+      "duration": 300,
+      "power": 100
+    },
+    {
+      "name": "ass.fusionbreeder",
+      "inputItem": [
+        ["item","hbm:item.item_expensive",4,4],
+        ["dict","ingotBoron",64],
+        ["item","hbm:item.item_expensive",4,7]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.fusion_breeder"]]
+      ],
+      "duration": 300,
+      "power": 100
+    },
+    {
+      "name": "ass.fusionboiler",
+      "inputItem": [
+        ["item","hbm:item.item_expensive",8,4],
+        ["item","hbm:item.item_expensive",8,1],
+        ["item","hbm:item.item_expensive",16,7]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.fusion_boiler"]]
+      ],
+      "duration": 300,
+      "power": 100
+    },
+    {
+      "name": "ass.fusionmhdt",
+      "inputItem": [
+        ["item","hbm:item.item_expensive",16,4],
+        ["item","hbm:item.item_expensive",16,7],
+        ["dict","plateTripleAnyBismoidBronze",32],
+        ["item","hbm:item.circuit",8,18]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.fusion_mhdt"]]
+      ],
+      "duration": 1200,
+      "power": 100
+    },
+    {
+      "name": "ass.fusioncoupler",
+      "inputItem": [
+        ["item","hbm:item.item_expensive",4,4],
+        ["dict","wireDenseBSCCO",16],
+        ["item","hbm:item.item_expensive",2,5]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.fusion_coupler"]]
+      ],
+      "duration": 300,
       "power": 100
     },
     {
@@ -4293,21 +4363,6 @@
       "power": 1000
     },
     {
-      "name": "ass.multitool",
-      "inputItem": [
-        ["dict","ingotAnyResistantAlloy",4],
-        ["dict","plateSteel",4],
-        ["dict","wireFineGold",12],
-        ["item","hbm:item.motor",4],
-        ["item","hbm:item.circuit",16,11]
-      ],
-      "outputItem": [
-        ["single",["hbm:item.multitool_hit"]]
-      ],
-      "duration": 100,
-      "power": 100
-    },
-    {
       "name": "ass.soyuz",
       "inputItem": [
         ["dict","shellTitanium",32],
@@ -4760,7 +4815,7 @@
         ["dict","plateSextupleTitanium",4],
         ["item","hbm:tile.crate_iron",2],
         ["item","hbm:item.thruster_small"],
-        ["item","hbm:item.circuit",1,13]
+        ["item","hbm:item.circuit",1,14]
       ],
       "outputItem": [
         ["single",["hbm:tile.transporter_rocket",2]]
@@ -4804,8 +4859,7 @@
         ["dict","wireFineCopper",4],
         ["dict","dustIron",3],
         ["item","hbm:item.crt_display",2],
-        ["item","hbm:item.circuit",2,9],
-        ["item","hbm:item.circuit",1,8]
+        ["item","hbm:item.circuit",2,9]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_drive_processor"]]
@@ -4818,8 +4872,7 @@
       "inputItem": [
         ["dict","plateSextupleSteel",2],
         ["dict","wireFineTungsten",4],
-        ["item","hbm:item.circuit",1,10],
-        ["item","hbm:item.circuit",4]
+        ["item","hbm:item.circuit",1,10]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_vacuum_circuit"]]
@@ -4850,7 +4903,7 @@
         ["dict","anyConcrete",64],
         ["dict","ingotAnyPlastic",16],
         ["item","hbm:tile.steel_scaffold",64],
-        ["item","hbm:item.circuit",4,10]
+        ["item","hbm:item.circuit",4,14]
       ],
       "outputItem": [
         ["single",["hbm:tile.launch_pad_rocket"]]
@@ -4906,6 +4959,22 @@
       "power": 100
     },
     {
+      "name": "ass.orbitalstationlauncher",
+      "inputItem": [
+        ["dict","plateSextupleTitanium",6],
+        ["item","hbm:item.motor",4],
+        ["dict","blockGlassColorless",8],
+        ["dict","ingotAnyPlastic",8],
+        ["item","hbm:item.circuit",2,10],
+        ["dict","plateStainlessSteel",4]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.orbital_station_launcher"]]
+      ],
+      "duration": 400,
+      "power": 100
+    },
+    {
       "name": "ass.rpstationcore20",
       "inputItem": [
         ["item","hbm:tile.orbital_station_port"],
@@ -4943,7 +5012,7 @@
         ["dict","blockGlassColorless"],
         ["dict","dustQuartz",4],
         ["item","hbm:item.circuit",4,28],
-        ["item","hbm:item.circuit",1,13]
+        ["item","hbm:item.circuit",4,14]
       ],
       "outputItem": [
         ["single",["hbm:tile.orbital_station_computer"]]
@@ -4977,7 +5046,7 @@
         ["dict","plateSextupleTungsten",8],
         ["item","hbm:item.motor_bismuth"],
         ["dict","ingotAnyHardPlastic",8],
-        ["item","hbm:item.circuit",4,10],
+        ["item","hbm:item.circuit",2,14],
         ["dict","ntmpipeDuraSteel",8]
       ],
       "outputItem": [
@@ -5653,7 +5722,7 @@
       "inputItem": [
         ["item","hbm:item.rocket_fuel",8],
         ["item","hbm:item.thruster_small",4],
-        ["item","hbm:item.circuit",1,13],
+        ["item","hbm:item.circuit",1,14],
         ["dict","ingotAnyRubber",16],
         ["dict","shellAluminum",4],
         ["dict","ingotFiberglass",12]
@@ -5688,6 +5757,35 @@
       ],
       "duration": 40,
       "power": 100
+    },
+    {
+      "name": "ass.packagehbmfluid.air",
+      "inputItem": [
+        ["item","hbm:item.fluid_pack_empty"]
+      ],
+      "inputFluid": [
+        ["AIR",32000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.fluid_pack_full",1,211]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.air",
+      "inputItem": [
+        ["item","hbm:item.fluid_pack_full",1,211]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["AIR",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbm:item.fluid_icon",1,211]
     },
     {
       "name": "ass.packagehbmfluid.water",
@@ -6270,6 +6368,35 @@
       "icon": ["hbm:item.fluid_icon",1,89]
     },
     {
+      "name": "ass.packagehbmfluid.scutterblood",
+      "inputItem": [
+        ["item","hbm:item.fluid_pack_empty"]
+      ],
+      "inputFluid": [
+        ["SCUTTERBLOOD",32000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.fluid_pack_full",1,132]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.scutterblood",
+      "inputItem": [
+        ["item","hbm:item.fluid_pack_full",1,132]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["SCUTTERBLOOD",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbm:item.fluid_icon",1,132]
+    },
+    {
       "name": "ass.packagehbmfluid.sodium",
       "inputItem": [
         ["item","hbm:item.fluid_pack_empty"]
@@ -6647,35 +6774,6 @@
       "icon": ["hbm:item.fluid_icon",1,39]
     },
     {
-      "name": "ass.packagehbmfluid.xenon",
-      "inputItem": [
-        ["item","hbm:item.fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["XENON",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:item.fluid_pack_full",1,40]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.xenon",
-      "inputItem": [
-        ["item","hbm:item.fluid_pack_full",1,40]
-      ],
-      "outputItem": [
-        ["single",["hbm:item.fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["XENON",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:item.fluid_icon",1,40]
-    },
-    {
       "name": "ass.packagehbmfluid.chlorine",
       "inputItem": [
         ["item","hbm:item.fluid_pack_empty"]
@@ -6790,35 +6888,6 @@
       "duration": 40,
       "power": 100,
       "icon": ["hbm:item.fluid_icon",1,82]
-    },
-    {
-      "name": "ass.packagehbmfluid.scutterblood",
-      "inputItem": [
-        ["item","hbm:item.fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["SCUTTERBLOOD",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:item.fluid_pack_full",1,132]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.scutterblood",
-      "inputItem": [
-        ["item","hbm:item.fluid_pack_full",1,132]
-      ],
-      "outputItem": [
-        ["single",["hbm:item.fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["SCUTTERBLOOD",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:item.fluid_icon",1,132]
     },
     {
       "name": "ass.packagehbmfluid.oil",
@@ -8561,6 +8630,35 @@
       "icon": ["hbm:item.fluid_icon",1,86]
     },
     {
+      "name": "ass.packagehbmfluid.dhc",
+      "inputItem": [
+        ["item","hbm:item.fluid_pack_empty"]
+      ],
+      "inputFluid": [
+        ["DHC",32000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.fluid_pack_full",1,210]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.dhc",
+      "inputItem": [
+        ["item","hbm:item.fluid_pack_full",1,210]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["DHC",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbm:item.fluid_icon",1,210]
+    },
+    {
       "name": "ass.packagehbmfluid.balefire",
       "inputItem": [
         ["item","hbm:item.fluid_pack_empty"]
@@ -9141,6 +9239,35 @@
       "icon": ["hbm:item.fluid_icon",1,188]
     },
     {
+      "name": "ass.packagehbmfluid.thorium_bromide",
+      "inputItem": [
+        ["item","hbm:item.fluid_pack_empty"]
+      ],
+      "inputFluid": [
+        ["THORIUM_BROMIDE",32000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.fluid_pack_full",1,191]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.thorium_bromide",
+      "inputItem": [
+        ["item","hbm:item.fluid_pack_full",1,191]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["THORIUM_BROMIDE",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbm:item.fluid_icon",1,191]
+    },
+    {
       "name": "ass.packagehbmfluid.aqueous_copper",
       "inputItem": [
         ["item","hbm:item.fluid_pack_empty"]
@@ -9197,35 +9324,6 @@
       "duration": 40,
       "power": 100,
       "icon": ["hbm:item.fluid_icon",1,190]
-    },
-    {
-      "name": "ass.packagehbmfluid.thorium_bromide",
-      "inputItem": [
-        ["item","hbm:item.fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["THORIUM_BROMIDE",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:item.fluid_pack_full",1,191]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.thorium_bromide",
-      "inputItem": [
-        ["item","hbm:item.fluid_pack_full",1,191]
-      ],
-      "outputItem": [
-        ["single",["hbm:item.fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["THORIUM_BROMIDE",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:item.fluid_icon",1,191]
     },
     {
       "name": "ass.packagehbmfluid.chloromethane",
@@ -9344,6 +9442,35 @@
       "icon": ["hbm:item.fluid_icon",1,122]
     },
     {
+      "name": "ass.packagehbmfluid.earthair",
+      "inputItem": [
+        ["item","hbm:item.fluid_pack_empty"]
+      ],
+      "inputFluid": [
+        ["EARTHAIR",32000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.fluid_pack_full",1,88]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.earthair",
+      "inputItem": [
+        ["item","hbm:item.fluid_pack_full",1,88]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["EARTHAIR",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbm:item.fluid_icon",1,88]
+    },
+    {
       "name": "ass.packagehbmfluid.dunaair",
       "inputItem": [
         ["item","hbm:item.fluid_pack_empty"]
@@ -9429,35 +9556,6 @@
       "duration": 40,
       "power": 100,
       "icon": ["hbm:item.fluid_icon",1,153]
-    },
-    {
-      "name": "ass.packagehbmfluid.kmno4",
-      "inputItem": [
-        ["item","hbm:item.fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["KMnO4",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:item.fluid_pack_full",1,118]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.kmno4",
-      "inputItem": [
-        ["item","hbm:item.fluid_pack_full",1,118]
-      ],
-      "outputItem": [
-        ["single",["hbm:item.fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["KMnO4",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:item.fluid_icon",1,118]
     },
     {
       "name": "ass.packagehbmfluid.sarnusgas",
@@ -9574,35 +9672,6 @@
       "duration": 40,
       "power": 100,
       "icon": ["hbm:item.fluid_icon",1,125]
-    },
-    {
-      "name": "ass.packagehbmfluid.air",
-      "inputItem": [
-        ["item","hbm:item.fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["AIR",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:item.fluid_pack_full",1,88]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.air",
-      "inputItem": [
-        ["item","hbm:item.fluid_pack_full",1,88]
-      ],
-      "outputItem": [
-        ["single",["hbm:item.fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["AIR",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:item.fluid_icon",1,88]
     },
     {
       "name": "ass.packagehbmfluid.nitric_acid",
@@ -9777,6 +9846,35 @@
       "duration": 40,
       "power": 100,
       "icon": ["hbm:item.fluid_icon",1,133]
+    },
+    {
+      "name": "ass.packagehbmfluid.kmno4",
+      "inputItem": [
+        ["item","hbm:item.fluid_pack_empty"]
+      ],
+      "inputFluid": [
+        ["KMnO4",32000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.fluid_pack_full",1,118]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.kmno4",
+      "inputItem": [
+        ["item","hbm:item.fluid_pack_full",1,118]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["KMnO4",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbm:item.fluid_icon",1,118]
     },
     {
       "name": "ass.packagehbmfluid.schrabidic",
@@ -10647,6 +10745,35 @@
       "duration": 40,
       "power": 100,
       "icon": ["hbm:item.fluid_icon",1,104]
+    },
+    {
+      "name": "ass.packagehbmfluid.xenon",
+      "inputItem": [
+        ["item","hbm:item.fluid_pack_empty"]
+      ],
+      "inputFluid": [
+        ["XENON",32000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.fluid_pack_full",1,40]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.xenon",
+      "inputItem": [
+        ["item","hbm:item.fluid_pack_full",1,40]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["XENON",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbm:item.fluid_icon",1,40]
     },
     {
       "name": "ass.packagehbmfluid.argon",

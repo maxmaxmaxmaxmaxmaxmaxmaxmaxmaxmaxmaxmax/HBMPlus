@@ -409,6 +409,20 @@
     },
     {
       "inputs": [
+        ["item","minecraft:stonebrick",16],
+        ["item","hbm:item.ingot_firebrick",16],
+        ["dict","ingotIron",8],
+        ["dict","ingotCopper",8]
+      ],
+      "outputs": [
+        ["hbm:tile.machine_annihilator",1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "CONSTRUCTION"
+    },
+    {
+      "inputs": [
         ["dict","ingotAluminum"]
       ],
       "outputs": [
@@ -1921,6 +1935,126 @@
       ],
       "outputs": [
         ["hbm:item.plate_iron",1.0],
+        ["hbm:item.plate_polymer",1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "RECYCLING"
+    },
+    {
+      "inputs": [
+        ["dict","ingotMingrade"],
+        ["item","hbm:item.plate_polymer"]
+      ],
+      "outputs": [
+        ["hbm:tile.red_cable_box",16,1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "CONSTRUCTION"
+    },
+    {
+      "inputs": [
+        ["item","hbm:tile.red_cable_box",16]
+      ],
+      "outputs": [
+        ["hbm:item.ingot_red_copper",1.0],
+        ["hbm:item.plate_polymer",1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "RECYCLING"
+    },
+    {
+      "inputs": [
+        ["dict","ingotMingrade"],
+        ["item","hbm:item.plate_polymer"]
+      ],
+      "outputs": [
+        ["hbm:tile.red_cable_box",16,1,1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "CONSTRUCTION"
+    },
+    {
+      "inputs": [
+        ["item","hbm:tile.red_cable_box",16,1]
+      ],
+      "outputs": [
+        ["hbm:item.ingot_red_copper",1.0],
+        ["hbm:item.plate_polymer",1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "RECYCLING"
+    },
+    {
+      "inputs": [
+        ["dict","ingotMingrade"],
+        ["item","hbm:item.plate_polymer"]
+      ],
+      "outputs": [
+        ["hbm:tile.red_cable_box",16,2,1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "CONSTRUCTION"
+    },
+    {
+      "inputs": [
+        ["item","hbm:tile.red_cable_box",16,2]
+      ],
+      "outputs": [
+        ["hbm:item.ingot_red_copper",1.0],
+        ["hbm:item.plate_polymer",1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "RECYCLING"
+    },
+    {
+      "inputs": [
+        ["dict","ingotMingrade"],
+        ["item","hbm:item.plate_polymer"]
+      ],
+      "outputs": [
+        ["hbm:tile.red_cable_box",16,3,1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "CONSTRUCTION"
+    },
+    {
+      "inputs": [
+        ["item","hbm:tile.red_cable_box",16,3]
+      ],
+      "outputs": [
+        ["hbm:item.ingot_red_copper",1.0],
+        ["hbm:item.plate_polymer",1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "RECYCLING"
+    },
+    {
+      "inputs": [
+        ["dict","ingotMingrade"],
+        ["item","hbm:item.plate_polymer"]
+      ],
+      "outputs": [
+        ["hbm:tile.red_cable_box",16,4,1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "CONSTRUCTION"
+    },
+    {
+      "inputs": [
+        ["item","hbm:tile.red_cable_box",16,4]
+      ],
+      "outputs": [
+        ["hbm:item.ingot_red_copper",1.0],
         ["hbm:item.plate_polymer",1.0]
       ],
       "tierLower": 2,

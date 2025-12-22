@@ -81,53 +81,6 @@
     },
     {
       "toppings": [
-        ["item","hbm:item.circuit",4,7],
-        ["item","hbm:item.circuit",2,26],
-        ["item","hbm:item.circuit",8,1]
-      ],
-      "pcb": [
-        ["item","hbm:item.circuit",6,3]
-      ],
-      "solder": [
-        ["dict","wireFineLead",6]
-      ],
-      "fluid": ["POLYTHYLENE",1000],
-      "output": ["hbm:item.circuit",1,12],
-      "duration": 400,
-      "consumption": 10000
-    },
-    {
-      "toppings": [
-        ["item","hbm:item.circuit",3,6]
-      ],
-      "pcb": [
-        ["item","hbm:item.circuit",1,10],
-        ["dict","ingotRubber",4]
-      ],
-      "solder": [
-        ["dict","wireFineLead",4]
-      ],
-      "output": ["hbm:item.circuit",1,13],
-      "duration": 300,
-      "consumption": 1000
-    },
-    {
-      "toppings": [
-        ["item","hbm:item.circuit",3,6]
-      ],
-      "pcb": [
-        ["item","hbm:item.circuit",1,9],
-        ["item","hbm:item.nugget_hafnium"]
-      ],
-      "solder": [
-        ["dict","wireFineLead",4]
-      ],
-      "output": ["hbm:item.circuit",1,14],
-      "duration": 300,
-      "consumption": 1000
-    },
-    {
-      "toppings": [
         ["item","hbm:item.circuit",4,19],
         ["item","hbm:item.circuit",16,7],
         ["item","hbm:item.circuit",4,21]
@@ -200,6 +153,21 @@
     },
     {
       "toppings": [
+        ["item","hbm:item.circuit",3,6]
+      ],
+      "pcb": [
+        ["item","hbm:item.circuit",1,10],
+        ["dict","ingotRubber",4]
+      ],
+      "solder": [
+        ["dict","wireFineLead",4]
+      ],
+      "output": ["hbm:item.circuit",1,14],
+      "duration": 300,
+      "consumption": 1000
+    },
+    {
+      "toppings": [
         ["item","hbm:item.circuit",2,6]
       ],
       "pcb": [
@@ -211,6 +179,39 @@
       "output": ["hbm:item.hard_drive"],
       "duration": 200,
       "consumption": 250
+    },
+    {
+      "toppings": [
+        ["item","hbm:item.circuit",4,7],
+        ["item","hbm:item.circuit",4,26],
+        ["item","hbm:item.circuit",8,1]
+      ],
+      "pcb": [
+        ["item","hbm:item.circuit",6,3]
+      ],
+      "solder": [
+        ["dict","wireFineLead",12]
+      ],
+      "fluid": ["POLYTHYLENE",1000],
+      "output": ["hbm:item.circuit",1,12],
+      "duration": 400,
+      "consumption": 10000
+    },
+    {
+      "toppings": [
+        ["item","hbm:item.circuit",2,26],
+        ["item","hbm:item.circuit",2,1]
+      ],
+      "pcb": [
+        ["item","hbm:item.circuit",4,3]
+      ],
+      "solder": [
+        ["dict","wireFineLead",8]
+      ],
+      "fluid": ["POLYTHYLENE",250],
+      "output": ["hbm:item.circuit",1,10],
+      "duration": 300,
+      "consumption": 1000
     },
     {
       "toppings": [
