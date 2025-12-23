@@ -60,6 +60,9 @@ List of avaible dimension ids:
 -42
 -41
 -40
+-39
+-38
+-37
 -36
 -35
 -34

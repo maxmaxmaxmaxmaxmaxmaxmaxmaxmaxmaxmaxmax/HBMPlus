@@ -1,6 +1,6 @@
 {
   "quality": {
-    "grass_quality": "FAST",
+    "grass_quality": "DEFAULT",
     "use_sodium_a_o": false
   },
   "advanced": {

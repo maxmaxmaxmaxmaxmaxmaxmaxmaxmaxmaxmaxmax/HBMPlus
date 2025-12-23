@@ -113,16 +113,16 @@
 12 is Avaible
 13 is Avaible
 14 is Avaible
-15 is Occupied by: Mun, Provider: (id: 15, class: class com.hbm.dim.moon.WorldProviderMoon)
-16 is Occupied by: Duna, Provider: (id: 16, class: class com.hbm.dim.duna.WorldProviderDuna)
-17 is Occupied by: Ike, Provider: (id: 17, class: class com.hbm.dim.Ike.WorldProviderIke)
-18 is Occupied by: Eve, Provider: (id: 18, class: class com.hbm.dim.eve.WorldProviderEve)
-19 is Occupied by: Dres, Provider: (id: 19, class: class com.hbm.dim.dres.WorldProviderDres)
-20 is Occupied by: Moho, Provider: (id: 20, class: class com.hbm.dim.moho.WorldProviderMoho)
-21 is Occupied by: Minmus, Provider: (id: 21, class: class com.hbm.dim.minmus.WorldProviderMinmus)
-22 is Occupied by: Laythe, Provider: (id: 22, class: class com.hbm.dim.laythe.WorldProviderLaythe)
-23 is Occupied by: Orbit, Provider: (id: 23, class: class com.hbm.dim.orbit.WorldProviderOrbit)
-24 is Occupied by: Tekto, Provider: (id: 24, class: class com.hbm.dim.tekto.WorldProviderTekto)
+15 is Avaible
+16 is Avaible
+17 is Avaible
+18 is Avaible
+19 is Avaible
+20 is Avaible
+21 is Avaible
+22 is Avaible
+23 is Avaible
+24 is Avaible
 25 is Avaible
 26 is Avaible
 27 is Avaible

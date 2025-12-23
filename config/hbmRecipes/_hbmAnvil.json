@@ -742,7 +742,7 @@
         ["dict","ingotSteel",8],
         ["dict","plateCopper",4],
         ["item","hbm:item.motor",2],
-        ["item","hbm:item.circuit",2,8]
+        ["item","hbm:item.circuit",4]
       ],
       "outputs": [
         ["hbm:tile.machine_assembly_machine",1.0]
