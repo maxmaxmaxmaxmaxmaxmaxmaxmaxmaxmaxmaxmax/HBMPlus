@@ -25,7 +25,7 @@
       "output": ["hbm:item.solid_fuel"]
     },
     {
-      "input": ["KEROSENE",700],
+      "input": ["DIESEL",3200],
       "output": ["hbm:item.solid_fuel"]
     },
     {
@@ -49,7 +49,7 @@
       "output": ["hbm:item.solid_fuel"]
     },
     {
-      "input": ["BIOFUEL",3600],
+      "input": ["DIESEL_CRACK",3400],
       "output": ["hbm:item.solid_fuel"]
     },
     {
@@ -65,7 +65,15 @@
       "output": ["hbm:item.solid_fuel_bf"]
     },
     {
+      "input": ["PETROIL",13000],
+      "output": ["hbm:item.solid_fuel"]
+    },
+    {
       "input": ["RECLAIMED",15000],
+      "output": ["hbm:item.solid_fuel"]
+    },
+    {
+      "input": ["BIOFUEL",3600],
       "output": ["hbm:item.solid_fuel"]
     },
     {
@@ -94,10 +102,6 @@
     },
     {
       "input": ["PETROLEUM",1000],
-      "output": ["hbm:item.solid_fuel"]
-    },
-    {
-      "input": ["DIESEL",3200],
       "output": ["hbm:item.solid_fuel"]
     },
     {
@@ -137,10 +141,6 @@
       "output": ["hbm:item.solid_fuel"]
     },
     {
-      "input": ["DIESEL_CRACK",3400],
-      "output": ["hbm:item.solid_fuel"]
-    },
-    {
       "input": ["SYNGAS",650],
       "output": ["hbm:item.solid_fuel"]
     },
@@ -161,12 +161,12 @@
       "output": ["hbm:item.oil_tar"]
     },
     {
-      "input": ["PETROIL",13000],
-      "output": ["hbm:item.solid_fuel"]
-    },
-    {
       "input": ["BIOGAS",250],
       "output": ["hbm:item.biomass_compressed",4]
+    },
+    {
+      "input": ["KEROSENE",700],
+      "output": ["hbm:item.solid_fuel"]
     },
     {
       "input": ["HEATINGOIL",4600],

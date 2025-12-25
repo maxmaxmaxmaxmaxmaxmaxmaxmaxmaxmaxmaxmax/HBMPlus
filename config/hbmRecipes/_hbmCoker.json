@@ -26,6 +26,11 @@
       "byproduct": ["GAS_COKER",37]
     },
     {
+      "input": ["DIESEL",590],
+      "output": ["hbm:item.coke",1,2],
+      "byproduct": ["NAPHTHA_COKER",59]
+    },
+    {
       "input": ["REDMUD",450],
       "output": ["minecraft:iron_ingot"],
       "byproduct": ["MERCURY",50]
@@ -39,11 +44,6 @@
       "input": ["NAPHTHA_CRACK",6400],
       "output": ["hbm:item.coke",1,2],
       "byproduct": ["NAPHTHA_COKER",640]
-    },
-    {
-      "input": ["DIESEL_CRACK",640],
-      "output": ["hbm:item.coke",1,2],
-      "byproduct": ["GAS_COKER",64]
     },
     {
       "input": ["LIGHTOIL_VACUUM",180],
@@ -61,9 +61,9 @@
       "byproduct": ["GAS_COKER",150]
     },
     {
-      "input": ["BIOFUEL",650],
+      "input": ["DIESEL_CRACK",640],
       "output": ["hbm:item.coke",1,2],
-      "byproduct": ["GAS_COKER",65]
+      "byproduct": ["GAS_COKER",64]
     },
     {
       "input": ["DIESEL_REFORM",230],
@@ -111,6 +111,11 @@
       "byproduct": ["NAPHTHA_COKER",580]
     },
     {
+      "input": ["BIOFUEL",650],
+      "output": ["hbm:item.coke",1,2],
+      "byproduct": ["GAS_COKER",65]
+    },
+    {
       "input": ["CALCIUM_SOLUTION",125],
       "output": ["hbm:item.powder_calcium"],
       "byproduct": ["SPENTSTEAM",100]
@@ -144,11 +149,6 @@
       "input": ["XYLENE",100],
       "output": ["hbm:item.coke",1,2],
       "byproduct": ["GAS_COKER",10]
-    },
-    {
-      "input": ["DIESEL",590],
-      "output": ["hbm:item.coke",1,2],
-      "byproduct": ["NAPHTHA_COKER",59]
     },
     {
       "input": ["SLOP",1000],

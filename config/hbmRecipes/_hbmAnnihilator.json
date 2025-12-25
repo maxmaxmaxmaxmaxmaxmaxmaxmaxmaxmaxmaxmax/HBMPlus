@@ -63,6 +63,18 @@
     },
     {
       "key": {
+        "type": "item",
+        "item": "hbm:item.powder_chlorophyte"
+      },
+      "milestones": [
+        {
+          "amount": 1024,
+          "payout": ["hbm:item.blueprints"]
+        }
+      ]
+    },
+    {
+      "key": {
         "type": "dict",
         "dict": "ingotAnyPlastic"
       },
@@ -94,18 +106,6 @@
       "milestones": [
         {
           "amount": 256,
-          "payout": ["hbm:item.blueprints"]
-        }
-      ]
-    },
-    {
-      "key": {
-        "type": "item",
-        "item": "hbm:item.powder_chlorophyte"
-      },
-      "milestones": [
-        {
-          "amount": 1024,
           "payout": ["hbm:item.blueprints"]
         }
       ]

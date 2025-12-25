@@ -17,6 +17,11 @@
       "output2": ["AROMATICS",20]
     },
     {
+      "input": "DIESEL",
+      "output1": ["KEROSENE",40],
+      "output2": ["PETROLEUM",30]
+    },
+    {
       "input": "KEROSENE",
       "output1": ["PETROLEUM",60],
       "output2": ["NONE",0]
@@ -25,11 +30,6 @@
       "input": "BIOGAS",
       "output1": ["PETROLEUM",20],
       "output2": ["AROMATICS",20]
-    },
-    {
-      "input": "DIESEL_CRACK",
-      "output1": ["KEROSENE",40],
-      "output2": ["PETROLEUM",30]
     },
     {
       "input": "ELBOWGREASE",
@@ -57,6 +57,11 @@
       "output2": ["CHLORINE",30]
     },
     {
+      "input": "DIESEL_CRACK",
+      "output1": ["KEROSENE",40],
+      "output2": ["PETROLEUM",30]
+    },
+    {
       "input": "DIESEL_REFORM",
       "output1": ["KEROSENE_REFORM",40],
       "output2": ["PETROLEUM",30]
@@ -65,11 +70,6 @@
       "input": "XYLENE",
       "output1": ["AROMATICS",80],
       "output2": ["PETROLEUM",20]
-    },
-    {
-      "input": "DIESEL",
-      "output1": ["KEROSENE",40],
-      "output2": ["PETROLEUM",30]
     },
     {
       "input": "HEATINGOIL_VACUUM",
