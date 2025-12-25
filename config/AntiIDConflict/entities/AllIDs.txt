@@ -1,4 +1,4 @@
-0 is Avaible
+0 is Occupied by dmod.fox(makamys.dmod.entity.EntityFox)
 1 is Occupied by Item(net.minecraft.entity.item.EntityItem)
 2 is Occupied by XPOrb(net.minecraft.entity.item.EntityXPOrb)
 3 is Avaible

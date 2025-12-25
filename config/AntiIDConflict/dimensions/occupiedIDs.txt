@@ -1,5 +1,6 @@
 Table of occupied dimension ids and their owners
 id:name(class)
+-100 : Underdark, Provider: (id: -100, class: class com.rwtema.extrautils.worldgen.Underdark.WorldProviderUnderdark)
 -39 : Mirror, Provider: (id: -39, class: class com.emoniph.witchery.dimension.WorldProviderMirror)
 -38 : Torment, Provider: (id: -38, class: class com.emoniph.witchery.dimension.WorldProviderTorment)
 -37 : Spirit World, Provider: (id: -37, class: class com.emoniph.witchery.dimension.WorldProviderDreamWorld)

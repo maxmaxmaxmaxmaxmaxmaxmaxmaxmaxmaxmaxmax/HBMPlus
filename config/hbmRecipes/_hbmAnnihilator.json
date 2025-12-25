@@ -14,18 +14,6 @@
     },
     {
       "key": {
-        "type": "item",
-        "item": "hbm:item.powder_chlorophyte"
-      },
-      "milestones": [
-        {
-          "amount": 1024,
-          "payout": ["hbm:item.blueprints"]
-        }
-      ]
-    },
-    {
-      "key": {
         "type": "comp",
         "item": "hbm:item.circuit",
         "meta": 16
@@ -75,18 +63,6 @@
     },
     {
       "key": {
-        "type": "item",
-        "item": "hbm:item.pellet_charged"
-      },
-      "milestones": [
-        {
-          "amount": 1024,
-          "payout": ["hbm:item.blueprints"]
-        }
-      ]
-    },
-    {
-      "key": {
         "type": "dict",
         "dict": "ingotAnyPlastic"
       },
@@ -118,6 +94,18 @@
       "milestones": [
         {
           "amount": 256,
+          "payout": ["hbm:item.blueprints"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "item",
+        "item": "hbm:item.powder_chlorophyte"
+      },
+      "milestones": [
+        {
+          "amount": 1024,
           "payout": ["hbm:item.blueprints"]
         }
       ]
@@ -162,6 +150,18 @@
       "key": {
         "type": "dict",
         "dict": "ingotFerrouranium"
+      },
+      "milestones": [
+        {
+          "amount": 1024,
+          "payout": ["hbm:item.blueprints"]
+        }
+      ]
+    },
+    {
+      "key": {
+        "type": "item",
+        "item": "hbm:item.pellet_charged"
       },
       "milestones": [
         {
