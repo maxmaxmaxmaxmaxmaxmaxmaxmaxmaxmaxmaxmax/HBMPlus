@@ -73,3 +73,4 @@ recipes.addShaped(<cookingbook:cookingtable>,
   [log, log, log]]);
 
 recipes.addShapeless(<hbm:item.nuclear_waste_long_depleted_tiny>, [<etfuturum:dragon_breath>]);
+recipes.addShapeless(<etfuturum:dye:3>, [<minecraft:coal:1>]);

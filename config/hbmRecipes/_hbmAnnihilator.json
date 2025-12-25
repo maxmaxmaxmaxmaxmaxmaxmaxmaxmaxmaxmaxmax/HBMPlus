@@ -14,6 +14,18 @@
     },
     {
       "key": {
+        "type": "item",
+        "item": "hbm:item.powder_chlorophyte"
+      },
+      "milestones": [
+        {
+          "amount": 1024,
+          "payout": ["hbm:item.blueprints"]
+        }
+      ]
+    },
+    {
+      "key": {
         "type": "comp",
         "item": "hbm:item.circuit",
         "meta": 16
@@ -33,18 +45,6 @@
       "milestones": [
         {
           "amount": 256,
-          "payout": ["hbm:item.blueprints"]
-        }
-      ]
-    },
-    {
-      "key": {
-        "type": "item",
-        "item": "hbm:item.pellet_charged"
-      },
-      "milestones": [
-        {
-          "amount": 1024,
           "payout": ["hbm:item.blueprints"]
         }
       ]
@@ -76,7 +76,7 @@
     {
       "key": {
         "type": "item",
-        "item": "hbm:item.powder_chlorophyte"
+        "item": "hbm:item.pellet_charged"
       },
       "milestones": [
         {
