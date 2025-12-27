@@ -7,12 +7,6 @@
       "output2": ["SOURGAS",15]
     },
     {
-      "input": "DIESEL_CRACK",
-      "hydrogen": ["HYDROGEN",10,1],
-      "output1": ["DIESEL",80],
-      "output2": ["SOURGAS",30]
-    },
-    {
       "input": "CCL",
       "hydrogen": ["HYDROGEN",10,1],
       "output1": ["CHLOROETHANE",80],
@@ -29,6 +23,12 @@
       "hydrogen": ["HYDROGEN",10,1],
       "output1": ["XYLENE",50],
       "output2": ["CHLORINE",40]
+    },
+    {
+      "input": "DIESEL_CRACK",
+      "hydrogen": ["HYDROGEN",10,1],
+      "output1": ["DIESEL",80],
+      "output2": ["SOURGAS",30]
     },
     {
       "input": "DIESEL_CRACK_REFORM",

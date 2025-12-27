@@ -29,7 +29,7 @@
       "output": ["hbm:item.solid_fuel"]
     },
     {
-      "input": ["DIESEL_CRACK",3400],
+      "input": ["BIOFUEL",3600],
       "output": ["hbm:item.solid_fuel"]
     },
     {
@@ -39,6 +39,10 @@
     {
       "input": ["SLOP",250],
       "output": ["hbm:tile.ore_oil_sand"]
+    },
+    {
+      "input": ["DIESEL",3200],
+      "output": ["hbm:item.solid_fuel"]
     },
     {
       "input": ["XYLENE",570],
@@ -65,10 +69,6 @@
       "output": ["hbm:item.solid_fuel"]
     },
     {
-      "input": ["KEROSENE",700],
-      "output": ["hbm:item.solid_fuel"]
-    },
-    {
       "input": ["HEATINGOIL",4600],
       "output": ["hbm:item.solid_fuel"]
     },
@@ -78,6 +78,10 @@
     },
     {
       "input": ["UNSATURATEDS",490],
+      "output": ["hbm:item.solid_fuel"]
+    },
+    {
+      "input": ["DIESEL_CRACK",3400],
       "output": ["hbm:item.solid_fuel"]
     },
     {
@@ -121,7 +125,7 @@
       "output": ["hbm:item.oil_tar",1,5]
     },
     {
-      "input": ["DIESEL",3200],
+      "input": ["KEROSENE",700],
       "output": ["hbm:item.solid_fuel"]
     },
     {
@@ -153,16 +157,12 @@
       "output": ["hbm:item.ingot_mud"]
     },
     {
-      "input": ["PETROIL",13000],
-      "output": ["hbm:item.solid_fuel"]
-    },
-    {
-      "input": ["BIOFUEL",3600],
-      "output": ["hbm:item.solid_fuel"]
-    },
-    {
       "input": ["VINYL",1000],
       "output": ["hbm:item.ingot_pvc"]
+    },
+    {
+      "input": ["PETROIL",13000],
+      "output": ["hbm:item.solid_fuel"]
     },
     {
       "input": ["MERCURY",125],

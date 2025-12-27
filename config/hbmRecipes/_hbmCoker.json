@@ -41,19 +41,19 @@
       "byproduct": ["OIL_COKER",1200]
     },
     {
-      "input": ["DIESEL",590],
+      "input": ["BIOFUEL",650],
       "output": ["hbm:item.coke",1,2],
-      "byproduct": ["NAPHTHA_COKER",59]
-    },
-    {
-      "input": ["DIESEL_CRACK",640],
-      "output": ["hbm:item.coke",1,2],
-      "byproduct": ["GAS_COKER",64]
+      "byproduct": ["GAS_COKER",65]
     },
     {
       "input": ["NAPHTHA",4900],
       "output": ["hbm:item.coke",1,2],
       "byproduct": ["NAPHTHA_COKER",490]
+    },
+    {
+      "input": ["DIESEL",590],
+      "output": ["hbm:item.coke",1,2],
+      "byproduct": ["NAPHTHA_COKER",59]
     },
     {
       "input": ["SLOP",1000],
@@ -126,9 +126,9 @@
       "byproduct": ["NAPHTHA_COKER",640]
     },
     {
-      "input": ["BIOFUEL",650],
+      "input": ["DIESEL_CRACK",640],
       "output": ["hbm:item.coke",1,2],
-      "byproduct": ["GAS_COKER",65]
+      "byproduct": ["GAS_COKER",64]
     },
     {
       "input": ["WATZ",4000],

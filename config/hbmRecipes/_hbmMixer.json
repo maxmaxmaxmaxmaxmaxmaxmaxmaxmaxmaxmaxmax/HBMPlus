@@ -68,17 +68,6 @@
       ]
     },
     {
-      "outputType": "COALGAS_LEADED",
-      "recipes": [
-        {
-          "duration": 40,
-          "outputAmount": 12000,
-          "input1": ["COALGAS",10000],
-          "solidInput": ["item","hbm:item.fuel_additive"]
-        }
-      ]
-    },
-    {
       "outputType": "RADIOSOLVENT",
       "recipes": [
         {
@@ -103,6 +92,23 @@
           "outputAmount": 2000,
           "input1": ["COOLANT",1800],
           "solidInput": ["item","hbm:item.powder_ice"]
+        }
+      ]
+    },
+    {
+      "outputType": "BIOFUEL",
+      "recipes": [
+        {
+          "duration": 20,
+          "outputAmount": 250,
+          "input1": ["FISHOIL",500],
+          "input2": ["WOODOIL",500]
+        },
+        {
+          "duration": 20,
+          "outputAmount": 200,
+          "input1": ["SUNFLOWEROIL",500],
+          "input2": ["WOODOIL",500]
         }
       ]
     },
@@ -406,12 +412,12 @@
       ]
     },
     {
-      "outputType": "PETROIL_LEADED",
+      "outputType": "COALGAS_LEADED",
       "recipes": [
         {
           "duration": 40,
           "outputAmount": 12000,
-          "input1": ["PETROIL",10000],
+          "input1": ["COALGAS",10000],
           "solidInput": ["item","hbm:item.fuel_additive"]
         }
       ]
@@ -517,30 +523,13 @@
       ]
     },
     {
-      "outputType": "PETROIL",
+      "outputType": "GASOLINE_LEADED",
       "recipes": [
         {
-          "duration": 30,
-          "outputAmount": 1000,
-          "input1": ["RECLAIMED",800],
-          "input2": ["LUBRICANT",200]
-        }
-      ]
-    },
-    {
-      "outputType": "BIOFUEL",
-      "recipes": [
-        {
-          "duration": 20,
-          "outputAmount": 250,
-          "input1": ["FISHOIL",500],
-          "input2": ["WOODOIL",500]
-        },
-        {
-          "duration": 20,
-          "outputAmount": 200,
-          "input1": ["SUNFLOWEROIL",500],
-          "input2": ["WOODOIL",500]
+          "duration": 40,
+          "outputAmount": 12000,
+          "input1": ["GASOLINE",10000],
+          "solidInput": ["item","hbm:item.fuel_additive"]
         }
       ]
     },
@@ -569,6 +558,17 @@
       ]
     },
     {
+      "outputType": "PETROIL",
+      "recipes": [
+        {
+          "duration": 30,
+          "outputAmount": 1000,
+          "input1": ["RECLAIMED",800],
+          "input2": ["LUBRICANT",200]
+        }
+      ]
+    },
+    {
       "outputType": "COLLOID",
       "recipes": [
         {
@@ -591,12 +591,12 @@
       ]
     },
     {
-      "outputType": "GASOLINE_LEADED",
+      "outputType": "PETROIL_LEADED",
       "recipes": [
         {
           "duration": 40,
           "outputAmount": 12000,
-          "input1": ["GASOLINE",10000],
+          "input1": ["PETROIL",10000],
           "solidInput": ["item","hbm:item.fuel_additive"]
         }
       ]
