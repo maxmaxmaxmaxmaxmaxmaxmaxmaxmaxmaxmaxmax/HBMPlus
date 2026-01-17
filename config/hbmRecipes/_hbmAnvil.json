@@ -2505,8 +2505,6 @@
         ["hbm:item.scrap",1.0],
         ["hbm:item.coil_tungsten",1.0],
         ["minecraft:bread",0.5],
-        ["hbm:item.battery_generic",0.25],
-        ["hbm:item.battery_advanced",0.1],
         ["hbm:item.fusion_core",0.01]
       ],
       "tierLower": 2,
@@ -2522,8 +2520,7 @@
         ["hbm:item.scrap",1.0],
         ["hbm:item.coil_tungsten",2,1.0],
         ["minecraft:bread",0.5],
-        ["hbm:item.battery_lithium",0.25],
-        ["hbm:item.battery_sc_uranium",0.1],
+        ["hbm:item.battery_sc",1,2,0.1],
         ["hbm:item.fusion_core",0.05]
       ],
       "tierLower": 2,

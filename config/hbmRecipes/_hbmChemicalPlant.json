@@ -329,6 +329,84 @@
       "power": 100
     },
     {
+      "name": "chem.batterylead",
+      "inputItem": [
+        ["dict","plateSteel",4],
+        ["dict","ingotLead",4]
+      ],
+      "inputFluid": [
+        ["SULFURIC_ACID",8000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.battery_pack",1,1]]
+      ],
+      "duration": 100,
+      "power": 100
+    },
+    {
+      "name": "chem.batterylithium",
+      "inputItem": [
+        ["dict","dustLithium",12],
+        ["dict","dustCobalt",8],
+        ["dict","ingotAnyPlastic",4]
+      ],
+      "inputFluid": [
+        ["OXYGEN",2000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.battery_pack",1,2]]
+      ],
+      "duration": 100,
+      "power": 1000
+    },
+    {
+      "name": "chem.batterysodium",
+      "inputItem": [
+        ["dict","dustSodium",24],
+        ["dict","dustIron",24],
+        ["dict","ingotAnyHardPlastic",12]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.battery_pack",1,3]]
+      ],
+      "duration": 100,
+      "power": 10000
+    },
+    {
+      "name": "chem.batteryschrabidium",
+      "inputItem": [
+        ["dict","dustSchrabidium",24],
+        ["dict","plateTripleAnyBismoidBronze",8]
+      ],
+      "inputFluid": [
+        ["HELIUM4",8000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.battery_pack",1,4]]
+      ],
+      "duration": 100,
+      "power": 25000
+    },
+    {
+      "name": "chem.batteryquantum",
+      "inputItem": [
+        ["dict","wireDenseBSCCO",24],
+        ["item","hbm:item.pellet_charged",32],
+        ["item","hbm:item.ingot_cft",16]
+      ],
+      "inputFluid": [
+        ["PERFLUOROMETHYL_COLD",8000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.battery_pack",1,5]]
+      ],
+      "outputFluid": [
+        ["PERFLUOROMETHYL",8000]
+      ],
+      "duration": 100,
+      "power": 100000
+    },
+    {
       "name": "chem.desh",
       "inputItem": [
         ["item","hbm:item.powder_desh_mix"]
@@ -967,7 +1045,8 @@
       ],
       "duration": 250,
       "power": 1000,
-      "icon": ["hbm:item.canister_full",1,86]
+      "icon": ["hbm:item.canister_full",1,86],
+      "named": true
     },
     {
       "name": "chem.ammonia",
@@ -992,7 +1071,8 @@
       ],
       "duration": 250,
       "power": 1000,
-      "icon": ["hbm:item.canister_full",1,87]
+      "icon": ["hbm:item.canister_full",1,87],
+      "named": true
     },
     {
       "name": "chem.hcl",
@@ -1138,7 +1218,8 @@
         ["single",["hbm:item.ingot_menthol",15]]
       ],
       "duration": 50,
-      "power": 300
+      "power": 300,
+      "named": true
     },
     {
       "name": "chem.mintslice",
@@ -1239,7 +1320,8 @@
         ["single",["minecraft:leather"]]
       ],
       "duration": 200,
-      "power": 500
+      "power": 500,
+      "named": true
     }
   ]
 }
