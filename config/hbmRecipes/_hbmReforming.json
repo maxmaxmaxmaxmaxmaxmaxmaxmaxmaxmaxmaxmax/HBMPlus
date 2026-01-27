@@ -1,22 +1,16 @@
 {
   "recipes": [
     {
+      "input": "LIGHTOIL_CRACK",
+      "output1": ["AROMATICS",50],
+      "output2": ["REFORMGAS",5],
+      "output3": ["HYDROGEN",20]
+    },
+    {
       "input": "CHOLESTEROL",
       "output1": ["ESTRADIOL",50],
       "output2": ["REFORMGAS",35],
       "output3": ["HYDROGEN",15]
-    },
-    {
-      "input": "HEATINGOIL",
-      "output1": ["NAPHTHA",50],
-      "output2": ["PETROLEUM",15],
-      "output3": ["HYDROGEN",10]
-    },
-    {
-      "input": "HGAS",
-      "output1": ["AROMATICS",60],
-      "output2": ["CHLOROMETHANE",25],
-      "output3": ["HCL",10]
     },
     {
       "input": "LIGHTOIL",
@@ -25,16 +19,10 @@
       "output3": ["HYDROGEN",15]
     },
     {
-      "input": "LIGHTOIL_CRACK",
-      "output1": ["AROMATICS",50],
-      "output2": ["REFORMGAS",5],
-      "output3": ["HYDROGEN",20]
-    },
-    {
-      "input": "NAPHTHA_CRACK",
-      "output1": ["REFORMATE",50],
-      "output2": ["AROMATICS",10],
-      "output3": ["HYDROGEN",5]
+      "input": "SOURGAS",
+      "output1": ["SULFURIC_ACID",75],
+      "output2": ["PETROLEUM",10],
+      "output3": ["HYDROGEN",15]
     },
     {
       "input": "NAPHTHA",
@@ -43,9 +31,9 @@
       "output3": ["HYDROGEN",10]
     },
     {
-      "input": "PETROLEUM",
-      "output1": ["UNSATURATEDS",85],
-      "output2": ["REFORMGAS",10],
+      "input": "NAPHTHA_CRACK",
+      "output1": ["REFORMATE",50],
+      "output2": ["AROMATICS",10],
       "output3": ["HYDROGEN",5]
     },
     {
@@ -55,10 +43,22 @@
       "output3": ["HYDROGEN",5]
     },
     {
-      "input": "SOURGAS",
-      "output1": ["SULFURIC_ACID",75],
-      "output2": ["PETROLEUM",10],
-      "output3": ["HYDROGEN",15]
+      "input": "PETROLEUM",
+      "output1": ["UNSATURATEDS",85],
+      "output2": ["REFORMGAS",10],
+      "output3": ["HYDROGEN",5]
+    },
+    {
+      "input": "HGAS",
+      "output1": ["AROMATICS",60],
+      "output2": ["CHLOROMETHANE",25],
+      "output3": ["HCL",10]
+    },
+    {
+      "input": "HEATINGOIL",
+      "output1": ["NAPHTHA",50],
+      "output2": ["PETROLEUM",15],
+      "output3": ["HYDROGEN",10]
     },
     {
       "input": "HALOLIGHT",
